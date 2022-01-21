@@ -73,15 +73,15 @@ namespace BMI_kalkulátor
 
             else if (16 <= BMI & BMI < 17)
             {
-                result.Foreground = Brushes.Green;
-                resultText.Foreground = Brushes.Green;
+                result.Foreground = Brushes.Red;
+                resultText.Foreground = Brushes.Red;
                 resultText.Text = "mérsékelten sovány";
             }
 
             else if(17 <= BMI & BMI < 18.5)
             {
-                result.Foreground = Brushes.Green;
-                resultText.Foreground = Brushes.Green;
+                result.Foreground = Brushes.Red;
+                resultText.Foreground = Brushes.Red;
                 resultText.Text = "enyhény sovány";
             }
 
